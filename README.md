@@ -35,6 +35,7 @@ Working:
 - keyboard with backlight
 
 Not working (so far):
+- headphone jack
 - 4G/LTE (had it working with clover so I'm sure I'll get it working)
 - Touchscreen (had it working with clover so I'm sure I'll get it working)
 - function keys (use karabiner to realocate)
