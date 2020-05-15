@@ -40,6 +40,9 @@ Not tested (so far):
 - USB-C DisplayPort/Data/Thunderbolt3
 - microSD cardreader
 
+Necessary files:
+- Resources for visual bootscreen (replace Resources folder in EFI\EFI/OC/ )
+
 Necessary tools:
 - MountEFI
 - ProperTree
