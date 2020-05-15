@@ -62,11 +62,14 @@ Things that need to be done:
   - download and copy the EFI folder from this repository to the EFI partition on your USB drive
     (not just the content of the EFI folder!)
 
-1. Set UEFI Variables
+2. Set UEFI Variables
   - use the macOS USB installer you created and select xxx.efi
   - disable CFG Lock: setup_var 0x109 0x00   !!!verify before use!!!extracted from BIOS 1.18.5!!!
   - only needed for QHD+ displays:
     increase DVMT:    setup_var              !!!verify before use!!!extracted from BIOS 1.18.5!!!
+    
+ End.
+ - Set Keyboard
 
 Thanks/Sources/further documentation:
 OpenCore - files and great documentation
