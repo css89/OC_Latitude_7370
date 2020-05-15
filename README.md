@@ -13,13 +13,16 @@ Use at your own risk! I can not be held responsible for any damage done.
 - QHD+ Touchscreen Display
 - Realtek ALC256 Audio (rebranded as ALC3246)
 - 43 Wh battery
+- BIOS version 1.18.5 (you should be an the same version if you plan to use my ACPI files!)
+  https://dl.dell.com/FOLDER05870297M/1/Latitude_7370_1.18.5.exe (needs to be done on Windows)
+- OpenCore v0.58
 
 
 
 
 Working:
-- EC Power management
-- HD515 with hardware acceleration
+- EC power management
+- HD515 with full hardware acceleration
 - USB-C charging
 - Audio as Apple-ALC layout-id 56(0b000000)
 - display brightness control
@@ -37,6 +40,11 @@ Not tested (so far):
 - USB-C DisplayPort/Data/Thunderbolt3
 - microSD cardreader
 
+Necessary tools:
+
+Usefull:
+- karabiner (keymap)
+- one-key-hidpi (scaling for FullHD displays)
 
 BIOS setting:
 ...
@@ -51,6 +59,9 @@ Things that need to be done:
 
 1. Set UEFI Variables
   - use the macOS USB installer you created and select xxx.efi
-  - disable CFG Lock: setup_var 0x 0x00   !!!verify if these can be used for your notebook!!!
+  - disable CFG Lock: setup_var 0x109 0x00   !!!verify before use!!!extracted from BIOS 1.18.5!!!
   - only needed for QHD+ displays:
-      - increase DVMT:    setup_var 0x 0x     !!!verify if these can be used for your notebook!!!
+    increase DVMT:    setup_var              !!!verify before use!!!extracted from BIOS 1.18.5!!!
+
+Thanks/Sources/further documentation:
+OpenCore - files and great documentation
