@@ -4,15 +4,18 @@ macOS Catalina with OpenCore on Dell Latitude 7370
 Use at your own risk! I can not be held responsible for any damage done.
 
 - Dell Latitude 13 7370
-- Intel m7-6y75
+- Intel m7-6y75 Dual-Core
 - Intel HD515
-- 16 GB DDR3 RAM @1600 (possible to set to 1866MHz in BIOS)
-- 256 GB Hynix NVMe (APFS 4K ->nvme-cli, not mandatory)
-- DW1830 WiFi AC
+- 16 GB 1600 MHz LPDDR3 RAM
+  (possible to set to 1866MHz in BIOS)
+- PC300 NVMe SK hynix 256GB
+  (APFS 4K format ->nvme-cli on linux, not mandatory)
+- DW1830 WiFi AC (Broadcom BCM943602BAED)
+  with third antenna
 - Sierra Wireless EM7345 4G LTE
-- QHD+ Touchscreen Display
+- 3200x1800@60Hz QHD+ Touchscreen Display
 - Realtek ALC256 Audio (rebranded as ALC3246)
-- 43 Wh battery
+- Dell 43 Wh battery
 - BIOS version 1.18.5 (you should be on the same version if you plan to use my ACPI files!)
   https://dl.dell.com/FOLDER05870297M/1/Latitude_7370_1.18.5.exe (needs to be done on Windows)
 - OpenCore v0.58
@@ -45,8 +48,8 @@ Removed files due to size:
 - bootloader audio resources (replace audio folder in EFI\EFI/OC/Resources if you want boot chime etc)
 
 Necessary tools:
-- MountEFI
-- ProperTree
+- MountEFI (mount EFI folder under macOS)
+- ProperTree (edit config.plist with GUI)
 
 Usefull:
 - karabiner (keymap)
