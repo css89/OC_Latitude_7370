@@ -41,8 +41,8 @@ Not tested (so far):
 - USB-C DisplayPort/Data/Thunderbolt3
 - microSD cardreader
 
-Necessary files:
-- Resources for visual bootscreen (replace Resources folder in EFI\EFI/OC/ )
+Removed files due to size:
+- bootloader audio resources (replace audio folder in EFI\EFI/OC/Resources if you want boot chime etc)
 
 Necessary tools:
 - MountEFI
