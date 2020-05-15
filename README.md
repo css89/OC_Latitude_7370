@@ -72,5 +72,6 @@ Things that need to be done:
  End.
  - Set Keyboard
 
-Thanks/Sources/further documentation:
-OpenCore - files and great documentation
+Thanks to:
+Dortania on GitHub for OpenCore files and awesome documentation
+https://dortania.github.io/getting-started/
