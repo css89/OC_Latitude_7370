@@ -41,6 +41,8 @@ Not tested (so far):
 - microSD cardreader
 
 Necessary tools:
+- MountEFI
+- ProperTree
 
 Usefull:
 - karabiner (keymap)
