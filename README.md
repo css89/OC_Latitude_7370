@@ -2,6 +2,7 @@
 macOS Catalina with OpenCore on Dell Latitude 7370
 
 Use at your own risk! I can not be held responsible for any damage done.
+This guide is still a work-in-progress!
 
 - Dell Latitude 13 7370
 - Intel m7-6y75 Dual-Core
@@ -12,7 +13,7 @@ Use at your own risk! I can not be held responsible for any damage done.
   (APFS 4K format ->nvme-cli on linux, not mandatory)
 - DW1830 WiFi AC (Broadcom BCM943602BAED)
   with third antenna
-- Sierra Wireless EM7345 4G LTE
+- Sierra Wireless EM7345 4G LTE WWAN
 - 3200x1800@60Hz QHD+ Touchscreen Display
 - Realtek ALC256 Audio (rebranded as ALC3246)
 - Dell 43 Wh battery
