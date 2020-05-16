@@ -22,7 +22,8 @@ This guide is still a work-in-progress!
 - OpenCore v0.58
 - MacBook9,1 as SMBIOS
 
-
+For using the original Intel WiFi 8260 (haven't tested):
+- https://github.com/zxystd/itlwm/blob/master/.github/README_en.md
 
 
 Working:
