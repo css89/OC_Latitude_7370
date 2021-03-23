@@ -1,6 +1,8 @@
 # OC_Latitude_7370
 macOS Catalina with OpenCore on Dell Latitude 7370
 
+!!! I have sold the notebook so there won't be any updates !!!
+
 Use at your own risk! I can not be held responsible for any damage done.
 This guide is still a work-in-progress!
 
